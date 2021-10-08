@@ -1,0 +1,47 @@
+.aboutus{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:black;
+	background: linear-gradient(to bottom right, #ffffff 0%, #cc99ff 100%);
+	font-family: 'Italianno', cursive;
+    background-image:url("images2.png");
+	background-repeat:no-repeat;
+	color:#b32d00;
+}
+
+#image{
+	width: 90%;
+	 top:30%;
+	 position :sticky;	
+}
+
+#image img{
+	 width:100%;
+	 padding:0px;
+	 border:100px black ;
+	 border-radius:28%;
+	 box-shadow:0 0 10px black;
+	 float:right;
+}
+
+#image :hover{
+        width :105%;
+		cursor:pointer;
+		transition: all 0.5s ease;
+		}
+
+#aboutus h1 {
+	margin-bottom:30px;
+	color: #cc5200;
+	font-weight:Bold;
+	text-shadow:3px 3px 5px #ff4d4d;
+}
+
+#bg {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width:14%;
+}
